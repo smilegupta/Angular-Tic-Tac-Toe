@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "game",
+      "public": "dist/game",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
